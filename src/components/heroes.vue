@@ -59,8 +59,8 @@ export default {
   },
   mixins: [lifecycleHooks, heroWatchers],
    async created() {
-    await this.loadHeroes();
-  },
+     await this.loadHeroes();
+   },
   methods: {
      async loadHeroes() {
       this.heroes = [];
