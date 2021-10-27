@@ -1,8 +1,6 @@
- import axios from 'axios';
-
+import axios from 'axios';
 import { format } from 'date-fns';
 import { inputDateFormat } from './constants';
-import axios from 'axios';
 
 const getHeroes = async function() {
   const response = await axios.get('api/heroes.json');
